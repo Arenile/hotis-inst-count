@@ -1,6 +1,7 @@
 // A C++ program to count till a user provided value.
 
-#include <iostream>
+#include <cstdio>
+#include <cstdlib>
 #include <cstdint>
 
 int main(int agrc, char* argv[]) {
@@ -10,7 +11,7 @@ int main(int agrc, char* argv[]) {
 
   for (int i = 0; i < count_till; i++) {
     // Output
-    std::cout << i <<std::endl;
+    printf("%d\n", i);
   }
 
   return 0;
